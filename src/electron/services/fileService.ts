@@ -1,11 +1,13 @@
 import fs from "fs";
 import path from "path";
 import { Todo } from "../models/todo.js";
-import { fileURLToPath } from "url";
+// import { fileURLToPath } from "url";
+import { app } from "electron";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const filePath = path.join(__dirname, "todos.json");
+// const __filename = fileURLToPath(import.meta.url);
+// const __dirname = path.dirname(__filename);
+const filePath = path.join(app.getAppPath(), "TODOS.json");
+console.log(filePath);
 
 export const fileService = {
   readTodos(): Todo[] {

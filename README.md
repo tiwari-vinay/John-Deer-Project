@@ -69,11 +69,13 @@ To create a production build for linux:
 ```bash
 npm run dist:linux
 ```
+
 To create a production build for MAC:
 
 ```mac
 npm run dist:mac
 ```
+
 To create a production build for Windows:
 
 ```win
@@ -89,7 +91,8 @@ The built application will be available in the `build` directory.
 │   ├── electron/
 │   │   ├── main.ts                 # Main process entry
 │   │   ├── preload.ts             # Preload script
-│   │   └── models/                # Data models
+│   │   ├── models/                # Data models
+│   │   └── services/              # Business logic and services
 │   └── renderer/
 │       ├── components/            # React components
 │       │   ├── Description.tsx
