@@ -34,8 +34,8 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/desktop-todo-app.git
-cd desktop-todo-app
+git clone git@github.com:tiwari-vinay/John-Deer-Project.git
+cd John-Deer-Project
 ```
 
 2. Install dependencies:
@@ -47,7 +47,7 @@ npm install
 3. Start the development server:
 
 ```bash
-npm start
+npm run dev
 ```
 
 ## 📜 Use Following Scripts
@@ -135,19 +135,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Vinay Tiwari
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-
-## 🙏 Acknowledgments
-
-- Electron.js documentation and community
-- React documentation and community
-- TypeScript team and community
-
-## 🐛 Known Issues
-
-- Check the [Issues](https://github.com/yourusername/desktop-todo-app/issues) page for current issues and feature requests.
-
-## 📞 Support
-
-For support, email youremail@example.com or create an issue in the repository.
-````
+- GitHub: [@tiwari-vinay](https://github.com/tiwari-vinay)
