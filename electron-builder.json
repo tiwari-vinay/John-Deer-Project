@@ -1,0 +1,19 @@
+{
+    "appId": "com.jd.project",
+    "productName": "John Deer Project by Vinay",
+    "icon": "./icon.png",
+    "directories": {
+      "output": "build"
+    },
+    "files": ["dist/**/*"],
+    "win": {
+      "target": ["portable", "msi"]
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+  
